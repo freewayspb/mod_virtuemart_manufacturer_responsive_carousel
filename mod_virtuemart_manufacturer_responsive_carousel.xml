@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="module" version="1.5.0">
-    <name>mod_virtuemart_manufacturer</name>
+    <name>Fabricantes Carosel</name>
     <creationDate>September 04 2014</creationDate>
     <author>The VirtueMart Development Team</author>
     <authorUrl>http://www.virtuemart.net</authorUrl>
@@ -9,7 +9,7 @@
     <version>2.6.10</version>
     <description>MOD_VIRTUEMART_MANUFACTURER_DESC</description>
     <files>
-        <filename module="mod_virtuemart_manufacturer">mod_virtuemart_manufacturer.php</filename>
+        <filename module="mod_virtuemart_manufacturer_responsive_carousel">mod_virtuemart_manufacturer_responsive_carousel.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>

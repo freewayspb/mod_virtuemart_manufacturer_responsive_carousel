@@ -24,7 +24,7 @@ if (!class_exists( 'VirtueMartModelManufacturer' ))
 if (!class_exists( 'VmConfig' )) require(JPATH_ADMINISTRATOR . DS . 'components' . DS . 'com_virtuemart'.DS.'helpers'.DS.'config.php');
 
 VmConfig::loadConfig();
-VmConfig::loadModJLang('mod_virtuemart_manufacturer', true);
+VmConfig::loadModJLang('mod_virtuemart_manufacturer_responsive_carousel', true);
 $vendorId = JRequest::getInt('vendorid', 1);
 $model = VmModel::getModel('Manufacturer');
 
@@ -37,5 +37,5 @@ $manufacturers = $model->getManufacturers(true, true,true);
 $model->addImages($manufacturers);
 if(empty($manufacturers)) return false;
 /* load the template */
-require(JModuleHelper::getLayoutPath('mod_virtuemart_manufacturer'));
+require(JModuleHelper::getLayoutPath('mod_virtuemart_manufacturer_responsive_carousel'));
 ?>

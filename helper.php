@@ -23,9 +23,9 @@ if (!class_exists( 'VirtueMartModelManufacturer' )){
    JLoader::import( 'manufacturer', JPATH_ADMINISTRATOR . DS . 'components' . DS . 'com_virtuemart' . DS . 'models' );
 }
 $document	= JFactory::getDocument();
-$document->addStyleSheet(JURI::root().'modules/mod_virtuemart_manufacturer/tmpl/css/jcarousel.responsive.css');
-$document->addScript(JURI::root().'modules/mod_virtuemart_manufacturer/tmpl/js/jquery.js');
-$document->addScript(JURI::root().'modules/mod_virtuemart_manufacturer/tmpl/js/jquery.jcarousel.min.js');
-$document->addScript(JURI::root().'modules/mod_virtuemart_manufacturer/tmpl/js/jcarousel.responsive.js');
+$document->addStyleSheet('modules/mod_virtuemart_manufacturer_responsive_carousel/tmpl/css/jcarousel.responsive.css');
+$document->addScript('modules/mod_virtuemart_manufacturer_responsive_carousel/tmpl/js/jquery.js');
+$document->addScript('modules/mod_virtuemart_manufacturer_responsive_carousel/tmpl/js/jquery.jcarousel.min.js');
+$document->addScript('modules/mod_virtuemart_manufacturer_responsive_carousel/tmpl/js/jcarousel.responsive.js');
 
 ?>
